@@ -1,0 +1,36 @@
+// TO DO //
+
+
+	* Methodes des classe, apparence.. Images / bouton drag & drop || clic1 : séléctionner , clic2: positionner
+	* Mouvements des Pieces
+		** Déplacement possible
+		** Roque
+	
+	* Jeu:
+		** Système de tour par tour
+			*** Les blancs commencent
+		** Mise en échec
+			*** Mouvement impossible de certaines pièces
+		** Mise en PAT
+	
+	* Interface graphique
+		
+
+
+// IN PROGRESS //
+
+
+
+
+
+// DONE //
+
+
+	* Creer les classes des pièces + super classes.	
+	* Creer un terrain de dimension 8x8
+		** Spawn des pièces
+
+
+
+
+// NOTES //
