@@ -10,6 +10,8 @@ public class Start {
 		Scanner scan = new Scanner(System.in);
 		Jeu chess = new Jeu();
 		
+		do
+		{
 		System.out.print("Ligne de la pièce à bouger: ");
 		ligneI = scan.nextInt();
 		System.out.print("Colonne de la pièce à bouger: ");
@@ -19,8 +21,8 @@ public class Start {
 		System.out.print("Colonne de la ligne ou diriger la pièce: ");
 		colonneF = scan.nextInt();
 
-		
 		chess.deplacer(ligneI, colonneI, ligneF, colonneF);
+		}while(true);
 		
 	}
 }

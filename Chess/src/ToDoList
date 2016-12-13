@@ -25,7 +25,7 @@
 
 // DONE //
 
-
+	* Déplacement basiques des pions
 	* Creer les classes des pièces + super classes.	
 	* Creer un terrain de dimension 8x8
 		** Spawn des pièces

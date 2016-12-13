@@ -30,6 +30,15 @@ public class Pion extends Piece{
 		}
 		else
 		{
+			// side noir
+			if((i - this.ligne == 2 || i - this.ligne == 1) && this.colonne == y)
+			{
+				Terrain.move(this.ligne, this.colonne, i, y, new Pion(i, y, this.side));
+			}
+			else
+			{
+				System.out.println("Déplacement impossible");
+			}
 			
 		}
 	}
