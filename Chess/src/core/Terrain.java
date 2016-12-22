@@ -3,13 +3,15 @@ package core;
 public class Terrain {
 
 
-	private static Piece[][] grille = new Piece[8][8];
+	private Piece[][] grille;
 	private String side, grilleToString;
 	private int position, positionPion;
 	
 	public Terrain()
 	{
+		grille = new Piece[8][8];
 		build();
+		
 	}
 	
 	private void build()
@@ -75,8 +77,9 @@ public class Terrain {
 		return grilleToString;
 	}
 	
-	public static void move(int ligneClear, int colonneClear, int ligneNew, int colonneNew, Piece piece)
+	public void move(int ligneClear, int colonneClear, int ligneNew, int colonneNew, Piece piece)
 	{
+	
 		grille[ligneClear][colonneClear] = null;
 		grille[ligneNew][colonneNew] = piece;
 	}
@@ -89,5 +92,10 @@ public class Terrain {
 	public void setGrille(Piece[][] grille)
 	{
 		this.grille = grille;
+	}
+	
+	public Object getContent(int i, int y)
+	{
+		return grille[i][y];
 	}
 }

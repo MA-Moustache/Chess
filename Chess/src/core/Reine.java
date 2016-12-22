@@ -15,7 +15,7 @@ public class Reine extends Piece{
 	}
 
 	@Override
-	protected void deplacer(int i, int y) {
+	protected void deplacer(int i, int y, Terrain echiquier) {
 		// TODO Auto-generated method stub
 		
 	}

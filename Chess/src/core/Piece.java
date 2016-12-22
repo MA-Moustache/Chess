@@ -6,7 +6,7 @@ public abstract class Piece {
 		protected int ligne, colonne;
 		
 		protected abstract void mourir();
-		protected abstract void deplacer(int i, int y);
+		protected abstract void deplacer(int i, int y, Terrain echiquier);
 		protected abstract void manger();
 
 		public String getForme() {
